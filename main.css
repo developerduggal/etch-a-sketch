@@ -3,15 +3,18 @@
   flex-wrap: wrap;
   height: 600px;
   width: 600px;
+  margin: auto;
+  border: 1px solid black;
 }
 
 .container > div {
   flex: 0 1 6.25%;
-  border: 1px solid black;
 }
 
 * {
   box-sizing: border-box;
+  text-align: center;
+  background-size: cover;
 }
 
 button {
